@@ -1,10 +1,33 @@
-# [Snake (Java)](https://youtu.be/Y62MJny9LHg)
+🐍 Java Snake Game
+This project is a fully functional Snake Game developed entirely in Java, utilizing the Swing framework for graphical user interface rendering and real-time game interaction. The objective of the game is to control the snake, collect food, and grow as long as possible without colliding with walls or itself. The game logic is driven by an efficient game loop, responsive user input handling, and robust collision detection algorithms.
 
-How to code a snake game in Java for beginners! Learn how to create a game of snake in Java using the awt and swing graphics library. Throughout the tutorial, you will learn how to create a graphical user interface (GUI) to display the Snake game, create the game loop, listen for Key presses to move the snake, use the ArrayList to store the snake's segments, and check collision and out of bounds for game over.
+🔧 Project Overview
+The Snake Game was designed following object-oriented programming principles to ensure clean code structure, reusability, and scalability. The game loop leverages Java’s built-in timer utilities to manage real-time snake movement, while keyboard events are captured using Swing's event listeners to allow smooth directional control.
 
-[How to setup Java with Visual Studio Code](https://youtu.be/BB0gZFpukJU)
+All rendering operations, including snake body, food generation, score updates, and game-over screens, are handled within custom JPanel components. The game dynamically increases difficulty as the snake grows, providing a progressive challenge for the player.
 
-![snake-java-demo](https://github.com/ImKennyYip/snake-java/assets/78777681/047a8e7c-1f8e-4059-af08-5dd0197f7543)
+💡 Key Features
+🎮 Real-time Gameplay: Smooth and responsive snake movement with adjustable game speed.
 
-## Homework:
-You can continue working on this project if you like. One feature you can add is a keyListener in KeyPressed to restart the game every time there is a game over. ex) if (e.getKeyCode() == KeyEvent.VK_SPACE && gameOver). Inside this conditional statement, you should reset the game to default (clear snakeBody ArrayList, call placeFood(), etc). Another feature you can add after this is keep track of the high score and paint it below the current score. For this you will need a variable to keep track of high score.
+💥 Collision Detection: Robust logic for wall and self-collision to determine game over conditions.
+
+🍎 Dynamic Food Generation: Randomized food spawning across the grid.
+
+📈 Scoring System: Real-time score tracking based on collected food items.
+
+🖥️ Graphical User Interface: Developed using Java Swing with custom painting for snake rendering.
+
+🧮 Object-Oriented Design: Modular class structure separating game logic, UI rendering, and user input.
+
+🔄 Restart Functionality: Allows restarting the game after game over without restarting the application.
+
+📊 Scalable Grid-Based System: Easy to modify grid size, snake speed, and game difficulty.
+
+🛠️ Technologies Used
+Java (Core)
+
+Java Swing (GUI Framework)
+
+Java AWT (Graphics Rendering)
+
+Object-Oriented Programming (OOP)
