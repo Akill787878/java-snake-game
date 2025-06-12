@@ -12,6 +12,8 @@ All rendering operations, including snake body, food generation, score updates, 
 🎮 Real-time Gameplay: Smooth and responsive snake movement with adjustable game speed.
 
 💥 Collision Detection: Robust logic for wall and self-collision to determine game over conditions.
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/d5212a7e-9221-4aba-8ac6-97b1177e011b" />
+
 
 🍎 Dynamic Food Generation: Randomized food spawning across the grid.
 
