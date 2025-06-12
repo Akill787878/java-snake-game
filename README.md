@@ -5,6 +5,8 @@ This project is a fully functional Snake Game developed entirely in Java, utiliz
 The Snake Game was designed following object-oriented programming principles to ensure clean code structure, reusability, and scalability. The game loop leverages Java’s built-in timer utilities to manage real-time snake movement, while keyboard events are captured using Swing's event listeners to allow smooth directional control.
 
 All rendering operations, including snake body, food generation, score updates, and game-over screens, are handled within custom JPanel components. The game dynamically increases difficulty as the snake grows, providing a progressive challenge for the player.
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/bf5724f1-fda3-49d3-acd5-8206fa247bd8" />
+
 
 💡 Key Features
 🎮 Real-time Gameplay: Smooth and responsive snake movement with adjustable game speed.
